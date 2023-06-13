@@ -25,10 +25,10 @@ const quotes = [{
 },];
 
 btn.addEventListener("click",function(){
-    let random = Math.floor(Math.random()*quotes.length);
+    let randomQuote = Math.floor(Math.random()*quotes.length);
 
-    quote.innerText = quotes[random].quote;
-    person.innerText = quotes[random].person;
+    quote.innerText = quotes[randomQuote].quote;
+    person.innerText = quotes[randomQuote].person;
 
 
 })

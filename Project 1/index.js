@@ -11,8 +11,8 @@ const quotes = [{
     quote : "If you want to live a happy life, tie it to a goal, not to people or things.",
     person : "Albert Einstein"
 },{
-    quote: "No fly zone please stay out of my airspace!",
-    person: "J.Cole"
+    quote: "I do the very best I know how - the very best I can; and I mean to keep on doing so until the end,",
+    person: "Abraham Lincoln"
 },{
     quote: "What we did not imagine was a Web of people, but a Web of Documents",
     person: "Dale Dougherty"

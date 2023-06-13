@@ -46,7 +46,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    animation-name: animationmodal;
+    animation-name: animationmodel;
     animation-duration: .4s;
 }
 

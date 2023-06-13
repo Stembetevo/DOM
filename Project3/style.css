@@ -20,7 +20,7 @@ body{
     border-radius: 30px;
 }
 
-.accordion-title{
+.accordion.accordion-title{
     margin-bottom: 30px;
     text-align: center;
 
@@ -51,16 +51,16 @@ body{
 }
 /*JAVASCRIPT*/
 
-.answer:active{
+:active.answer{
     height: 150px;
 }
 
-.question:active{
+:active.question{
     font-size: 18px;
     transition: .5s;
 }
 
-.accordion .content-container .active .question::after{
+:active.question::after{
     content: '-';
     font-size: 30px;
     transition: .5s;
